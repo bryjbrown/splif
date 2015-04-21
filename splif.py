@@ -84,5 +84,3 @@ output.close()
 print("Done! Output can be found in {}-output.sh".format(sys.argv[1]))
 print("This file should take ~{} hours to load".format(((len(data) / 60) / 60)))
 print("Don't forget to configure the database connection vars!")
-
-
